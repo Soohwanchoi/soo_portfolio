@@ -57,7 +57,7 @@ body {
 }
 .logo_image {
     position: relative;
-    height: 6vh;
+    height: 5vh;
 }
 .gnb {
     float: right;
@@ -148,7 +148,7 @@ body {
 .skill-feature{
     width: 80%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -169,6 +169,11 @@ body {
     color: #ffffff;
     margin: 0;
 }
+
+.level-info hr{
+    color: #ffffff;
+    margin: 0;
+}
 .skill-heading hr.bar{
     width: 50px;
     height: 4px;
@@ -177,11 +182,19 @@ body {
     margin: 30px auto;
     display: inline-block;
 }
-
+.level-info hr.bar{
+    width: 50px;
+    height: 4px;
+    border: none;
+    background-color: dodgerblue;
+    margin: 20px auto;
+    display: inline-block;
+}
 
 .skill-heading p{
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.5em;
+    color: white;
 }
 .skill-photo{
     width: 30%;
@@ -190,7 +203,6 @@ body {
     height: 300px;
     width: 450px;
 }
-.level-info{}
 
 /* #################연락################ */
 .contact-inner{

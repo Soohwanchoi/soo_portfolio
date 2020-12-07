@@ -1,0 +1,120 @@
+.pie-chart1 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#0174DF 50% 0%, #1d1b24 50% 100%);
+    border-radius: 50%;
+}
+.center{
+    position:absolute;
+    width:200px;
+    height: 200px;
+    background :#1d1b24;
+    border-radius: 50%;
+    top: 50px;
+    left:50px;
+}
+
+/*자바스크립트*/
+.pie-chart2 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#FF8000 25% 0%, #1d1b24 25% 100%);
+    border-radius: 50%;
+}
+/*.pie-chart2  .center{
+    position:absolute;
+    width:200px;
+    height: 200px;
+    background :#1d1b24;
+    border-radius: 50%;
+    top: 50px;
+    left:50px;
+}*/
+/*파이썬*/
+.pie-chart3 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#F7FE2E 25% 0%, #1d1b24 25% 100%);
+    border-radius: 50%;
+}
+/*.pie-chart3  .center{
+    position:absolute;
+    width:200px;
+    height: 200px;
+    background :#1d1b24;
+    border-radius: 50%;
+    top: 50px;
+    left:50px;
+}*/
+/* 오라클 */
+.pie-chart4 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#FA5858 25% 0%, #1d1b24 25% 100%);
+    border-radius: 50%;
+}
+/* mysql */
+.pie-chart5 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#81DAF5 25% 0%, #1d1b24 25% 100%);
+    border-radius: 50%;
+}
+/* MongoDB */
+.pie-chart6 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#01DF01 25% 0%, #1d1b24 25% 100%);
+    border-radius: 50%;
+}
+/* sts */
+.pie-chart7 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#9AFE2E 25% 0%, #1d1b24 25% 100%);
+    border-radius: 50%;
+}
+/* github */
+.pie-chart8 {
+    display:inline-block;
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#F2F2F2 25% 0%, #1d1b24 25% 100%);
+    border-radius: 50%;
+}
+.circle-left{
+    float: left;
+    margin-right: 215px;
+}
+.circle-image{
+    height: 37px;
+    float: left;
+    margin-right: 15px;
+}
+.image-text{
+    margin: 0;
+    vertical-align: center;
+    font-size: 25px;
+    color: white;
+}
+.center-text{
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    color: white;
+}

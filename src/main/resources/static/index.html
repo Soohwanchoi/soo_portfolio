@@ -19,6 +19,7 @@
     <script src="custom_js/common.js"></script>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/project.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 
@@ -27,6 +28,7 @@
 <body data-hijacking="on" data-animation="rotate">
 
 <div class="container">
+    <!--홈-->
     <section class="cd-section visible">
         <div>
             <div class="content">
@@ -36,67 +38,61 @@
             </div>
         </div>
     </section>
-
+    <!--인트로 섹션-->
     <section class="cd-section">
         <div>
             <div class="content">
-                <div class="about-inner">
-                    <div class="about-items">
-                        <div class="item">
-                            <h1 class="sectionText">About</h1>
-                            <img src="images/soo.png" alt="" class="profile">
-                            <div>
-                            <h1 class="aboutName">최 수환 SooHwan Choi</h1>
-                                <span>
-                                <p class="aboutIntro">
-                                    개발에 관심이 많은 주니어 개발자 최수환입니다.<br>
-                                    아직 배워야 할 부분이 많지만 <span class="textEvery">'매일 한 걸음 한 걸음 나아가는'</span><br>
-                                     마음으로 웹 사이트를 제작하였습니다.
-                                    <br>
-                                </p>
-                            </span>
-                            </div>
-                        </div>
-                        <div class="itemMain">
-                        <div class="itemMargin">
-                            <img src="images/education.png" alt="" class="aboutIcon">
-                            <span>
+                <div class="intro-inner">
+                    <div class="intro-about">
+                        <div class="intro-heading">
+                            <img src="images/soo.png" class="profile">
+                            <h2 class="intro-name">최 수환 SooHwan Choi</h2>
+                            <hr class="bar">
+                            <p>
+                                개발에 관심이 많은 주니어 개발자 최수환입니다.<br>
+                                아직 배워야 할 부분이 많지만 <span class="textEvery"> '매일 한 걸음 한 걸음 나아가는'</span><br>
+                                마음으로 웹 사이트를 제작하였습니다.
+                                <br>
+                            </p>
+                            <div class="intro-item">
+                                <div class="intro-item-div">
+                                    <img src="images/education.png" alt="" class="aboutIcon">
+                                    <span>
                             <p class="aboutP"><span class="aboutSubject">Education</span><br>
                             한서대학교 일본학과 졸업 2017.08<br>
                             자바 교육과정 수료 2017.11 ~ 2018.05</p>
                             </span>
-                        </div>
-                        <div class="itemMargin">
-                            <img src="images/company.jpg" class="aboutIcon">
-                            <span>
+                                </div>
+                                <div class="intro-item-div">
+                                    <img src="images/company.jpg" class="aboutIcon">
+                                    <span>
                             <p class="aboutP"><span class="aboutSubject">Career</span><br>
                             일본 도쿄 IT회사 근무 2018.12~2020.04<br>
                             일본 프리랜서 2020.05~20.07</p>
                             </span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="">
-                            <span>
-                            <p class="aboutP">
-                                <i class="fa fa-spinner fa-pulse fa-fw" style="font-size: 45px; float: left; margin-right: 1.5vw"></i>
-                                <span class="aboutSubject">현재 구직중</span>
-                            </p>
-                            </span>
-                        </div>
-                        </div>
+                    </div>
+                    <!-- intro image -->
+                    <div class="intro-image">
+                        <img src="images/intro-image.jpg">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--일본생활-->
     <section class="cd-section">
         <div>
             <div class="content">
-                <h1 class="h1Text">Japan's work</h1>
+                <h1 class="h1Text">Japan's Life</h1>
             </div>
         </div>
     </section>
 
+    <!--스킬 섹션-->
     <section class="cd-section">
         <div>
             <div class="content">
@@ -115,7 +111,7 @@
                             </div>
                         </div>
                         <div class="level-info">
-                            <h2 style="color: white;">Technology level</h2>
+                            <h2 style="color: white; margin-bottom: 0px;">Technology level</h2>
                             <hr class="bar">
                             <div class="level-slider">
                                 <!-- 자바 서클 -->
@@ -123,7 +119,7 @@
                                     <img src="images/java.jpg" class="circle-image">
                                     <h3 class="image-text">Java</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                     <div class="pie-chart1">
                                         <span class="center">
                                             <p class="center-text">Intermediate</p>
@@ -136,7 +132,7 @@
                                     <img src="images/javascript.jpg" class="circle-image">
                                     <h3 class="image-text">JavaScript</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                         <div class="pie-chart2">
                                         <span class="center">
                                             <p class="center-text">Beginner</p>
@@ -149,7 +145,7 @@
                                     <img src="images/python.jpg" class="circle-image">
                                     <h3 class="image-text">Python</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                         <div class="pie-chart3">
                                         <span class="center">
                                             <p class="center-text">Beginner</p>
@@ -164,7 +160,7 @@
                                     <img src="images/oracle.jpg" class="circle-image">
                                     <h3 class="image-text">Oracle</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                         <div class="pie-chart4">
                                         <span class="center">
                                             <p class="center-text">Intermediate</p>
@@ -177,7 +173,7 @@
                                     <img src="images/mysql.jpg" class="circle-image">
                                     <h3 class="image-text">Mysql</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                         <div class="pie-chart5">
                                         <span class="center">
                                             <p class="center-text">Intermediate</p>
@@ -190,7 +186,7 @@
                                     <img src="images/mongodb.jpg" class="circle-image">
                                     <h3 class="image-text">MongoDB</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                         <div class="pie-chart6">
                                         <span class="center">
                                             <p class="center-text">Beginner</p>
@@ -204,7 +200,7 @@
                                     <img src="images/sts.jpg" class="circle-image">
                                     <h3 class="image-text">STS</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                         <div class="pie-chart7">
                                         <span class="center">
                                             <p class="center-text">Beginner</p>
@@ -217,7 +213,7 @@
                                     <img src="images/github.jpg" class="circle-image">
                                     <h3 class="image-text">Github</h3>
                                     <!--  원형그래프  -->
-                                    <div>
+                                    <div class="div-circle">
                                         <div class="pie-chart8">
                                         <span class="center">
                                             <p class="center-text">Beginner</p>
@@ -234,14 +230,121 @@
         </div>
     </section>
 
+    <!--프로젝트 섹션-->
     <section class="cd-section">
         <div>
             <div class="content">
-                <h2>Section 5</h2>
+                <div class="project-inner">
+                    <input type="radio" name="tabmenu" id="tab1" checked>
+                    <input type="radio" name="tabmenu" id="tab2">
+                    <input type="radio" name="tabmenu" id="tab3">
+                    <div class="tabs">
+                        <!-- No.1 -->
+                        <div class="tab">
+                            <div class="project-info" data-text="01">
+                                <h3>Project : JSP 게시판</h3>
+                                <p>
+                                    웹 개발의 시작이자 꽃으로 불리는 게시판을 JSP언어를 통하여 간단하게 만들어 보았습니다.
+                                    개발 언어로 JSP를 선정한 이유는 JAVA를 활용 할 수 있다는 점과 더불어
+                                    대부분의 기업이 전자정부표준 프레임워크를 활용하여 개발하기에 JSP로 개발하였습니다.
+                                </p>
+                                <div class="detail">
+                                    <div>
+                                        <span>Language</span>Jsp
+                                    </div>
+                                    <div>
+                                        <span>Database</span>MySQL
+                                    </div>
+                                    <div>
+                                        <span>IDE</span>Spring
+                                    </div>
+                                    <div class="github-div">
+                                        <a  class="github-div-a" href="https://github.com/Soohwanchoi" target="_blank">
+                                            Github <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-image">
+                                <img src="images/jsp_01.JPG" class="jsp-image">
+                                <img src="images/jsp_02.JPG" class="jsp-image">
+                            </div>
+                        </div>
+                        <!-- No.2 -->
+                        <div class="tab">
+                            <div class="project-info" data-text="02">
+                                <h3>Project : MVC Pattern</h3>
+                                <p>
+                                    웹 개발 패턴 중 하나인 mvc 패턴을 중점으로 기본원리를 공부하였습니다.<br>
+                                    H2DB를 선정한 이유는 브라우저 기반으로 가벼우며, H2DB가 개발 단계의 테스트 DB로서 많이 사용 되고 있기 때문입니다.
+                                    해당 코드는 Repository를 Jdbc, JdbcTemplate, Jpa로 구현했을 때의 코드입니다.
+                                </p>
+                                <div class="detail">
+                                    <div>
+                                        <span>Language</span>Java
+                                    </div>
+                                    <div>
+                                        <span>Database</span>H2
+                                    </div>
+                                    <div>
+                                        <span>IDE</span>IntelliJ
+                                    </div>
+                                    <div class="github-div">
+                                        <a  class="github-div-a" href="https://github.com/Soohwanchoi" target="_blank">
+                                            Github <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-image">
+                                <img src="images/spring_01.jpg" class="spring-image">
+                                <img src="images/spring_02.jpg" class="spring-image">
+                                <img src="images/spring_03.jpg" class="spring-image">
+                            </div>
+                        </div>
+                        <!-- No.3 -->
+                        <div class="tab">
+                            <div class="project-info" data-text="03">
+                                <h3>Project : Python Flask</h3>
+                                <p>
+                                    평소 흥미를 가지고 있었던 언어 중 하나인 Python으로 게시판을 만들었습니다.<br>
+                                    게시판은 Summernote 에디터를 활용하여 만들었으며, 부족한 내용에 대해서는 계속해서 공부해 나가고 있습니다.
+                                </p>
+                                <div class="detail">
+                                    <div>
+                                        <span>Language</span>Python
+                                    </div>
+                                    <div>
+                                        <span>Database</span>MongoDB
+                                    </div>
+                                    <div>
+                                        <span>IDE</span>Visual Studio
+                                    </div>
+                                    <div class="github-div">
+                                        <a  class="github-div-a" href="https://github.com/Soohwanchoi" target="_blank">
+                                            Github <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-image">
+                                <img src="images/bbs_python1.jpg" class="python-image">
+                                <img src="images/bbs_python2.jpg" class="python-image">
+                                <img src="images/bbs_python3.jpg" class="python-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <label for="tab1"></label>
+                        <label for="tab2"></label>
+                        <label for="tab3"></label>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <!--연락-->
     <section class="cd-section" id="contact">
         <div>
             <div class="content">
@@ -278,6 +381,7 @@
         </div>
     </section>
 
+    <!--헤더-->
     <header>
         <div class="gnb-inner">
             <div class="logo">

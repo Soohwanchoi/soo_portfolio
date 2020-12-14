@@ -33,14 +33,14 @@ $(function(){
         slidesToScroll: 2,
     })
 
-    // slick.js : project photo
-    $('.circle-photo').slick({
+    //slick.js : project image
+    $('.project-image').slick({
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 300,
         fade: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         cssEase: 'linear'
     })
 })

@@ -27,10 +27,10 @@
     width: 75%;
     overflow: hidden;
 }
-.jsp-image{
+/*.jsp-image{
     width: 100%;
     height: 100%;
-}
+}*/
 /* 속성선택자는 띄어쓰기 X */
 input[name=tabmenu] {
     display: none;

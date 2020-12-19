@@ -43,6 +43,8 @@ body {
 /* Header */
 .header {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 .gnb-inner {
@@ -248,20 +250,24 @@ body {
     cursor: pointer;
 }
 /* #################연락################ */
-.sectionText{
-    margin: 0;
-    text-align: center;
-    font-size: 70px;
-    font-family: cursive;
-    margin-top: 2vh;
-}
+
 .contact-inner{
-    background-color: #ffffff;
+    background-color: #1d1b24;
     height: 100%;
     border: 1px solid #ddd;
 }
+.contact-inner h2 {
+    color: #fff;
+    margin: 0;
+}
+.contact-form ul li span{
+    color: #fff;
+}
+.contactTextarea p{
+    color: #ddd;
+    line-height: 30px;
+}
 .contact-feature{
-    border: 1px solid red;
     width: 70%;
     position: absolute;
     top: 50%;
@@ -269,8 +275,8 @@ body {
     transform: translate(-50%, -50%);
 }
 .contact-feature > div{
-    border: 1px solid #000;
-    height: 400px;
+    border: 1px solid #ddd;
+    height: 37vh;
     float: left;
     width: 50%;
 }
@@ -285,6 +291,7 @@ body {
     background-position: center;
 }
 .contact-mail{
+    margin-right: 10px;
     vertical-align: middle;
     width: 6%;
 }
@@ -294,8 +301,24 @@ body {
 }
 .contactA{
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
+.contact-heading{
+    width: 70%;
+    padding-right: 50px;
+    margin-left: 14.5vw;
+    margin-top: 95px;
+}
+.contact-heading hr {
+    width: 50px;
+    height: 4px;
+    border: none;
+    background-color: dodgerblue;
+    margin: 30px auto;
+    display: inline-block;
+}
+
+
 
 /* 페이지 우측 상하버튼 */
 .cd-vertical-nav a.cd-prev {
